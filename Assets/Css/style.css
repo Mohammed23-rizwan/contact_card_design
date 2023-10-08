@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS';
+}
+
+section{
+    width: 100vw;
+    min-height: 100vh;
+    background-color: #0B1853;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    width: 750px;
+    height: 460px;
+    background-color: #557FDE;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+}
+.left{
+    width: 250px;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    background-image: url(../Images/neon-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #F0E9E2;
+}
+.left img{
+    width: 100px;
+}
+.left h2{
+    letter-spacing: 2px;
+    padding-top: 5px;
+    font-family: 'Bebas Neue', sans-serif;
+}
+.right{
+    width: 500px;
+    padding-top: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.form_card{
+    width: 100%;
+}
+.form_card h1{
+    text-align: center;
+    font-weight: 100;
+    font-family: 'Trebuchet MS';
+    margin-bottom: 10px;
+}
+.form_group{
+    margin-top: 10px;
+}
+.form_group label{
+    display: block;
+    font-family: 'Trebuchet MS';
+    padding-bottom: 5px;
+}
+.form_group input{
+    width: 100%;
+    height: 32px;
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 2px;
+}
+.form_group input:hover{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.button_create{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+.button_create button{
+    width: 180px;
+    height: 35px;
+    font-family: 'Trebuchet MS';
+    background: #000;
+    color: white;
+    border: none;
+    border-radius: 25px;
+}
+.form_card p{
+    text-align: center;
+    font-size: 12px;
+}
+.form_card p a{
+    color: #F0E9E2;
+    text-decoration: none;
+}
+.form_card h3{
+    text-align: center;
+    margin: 15px 0;
+}
+.button_group{
+    display: flex;
+    justify-content: space-evenly;
+}
+.button_group button{
+    width: 160px;
+    height: 35px;
+    border: none;
+    padding: 5px;
+    border-radius: 25px;
+}
+ion-icon{
+    margin-right: 5px;
+}
